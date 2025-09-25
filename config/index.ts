@@ -4,11 +4,11 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const IS_WORKFLOW = `${process.env.NEXT_PUBLIC_APP_TYPE_WORKFLOW}` === 'true'
 export const APP_INFO: AppInfo = {
-  title: '视频脚本生成',
-  description: '宠物视频脚本生成Workflow',
+  title: 'Video Script',
+  description: '',
   copyright: '',
   privacy_policy: '',
-  default_language: 'en-US',
+  default_language: 'zh-Hans',
 }
 
 export const API_PREFIX = '/api'
